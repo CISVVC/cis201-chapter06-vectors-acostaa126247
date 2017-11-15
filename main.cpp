@@ -56,12 +56,6 @@ void Transaction::print() const
     std::cout << "description:" << description << std::endl;
 }
 
-void print_transactions(const std::vector<Transaction> t)
-{
-    for(int i=0;i<t.size();i++)
-        t[i].print(); // prints out what lays in the vector!~!
-}
-
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 int MAX_DAY = 30;
